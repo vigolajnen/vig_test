@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Meeting day</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <nav class="menu">
+          <button class="menu__button" type="button">
+            <svg width="25" height="25">
+              <use xlink:href="images/sprite_auto.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="menu__wrapper">
+            <a class="menu__link" href="#">Связаться с нами</a>
+            <a class="menu__link" href="#">Местоположение</a>
+            <a class="menu__link" href="#">Забронировать</a>
+            <a class="menu__link" href="#">Узнать цены</a>
+          </div>
+        </nav>
+        <div class="promo">
+          <h1 class="promo__title">Digital Meeting day</h1>
+          <p class="promo__text">
+            Количество мест ограничено, успей купить билеты
+          </p>
+          <button class="promo__button" type="button">Купить</button>
+        </div>
+      </div>
+    </header>
+    <section class="tickets">
+      <div class="tickets__wrapper container">
+        <div class="tickets__subtitle">
+          Билеты на мероприятие Digital Meeting Day можно приобрести прямо
+          сейчас
+        </div>
+
+        <div class="tickets__price">7 000 рублей</div>
+        <button class="tickets__button" type="button">Купить</button>
+        <a class="tickets__link" href="#">Забронировать</a>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info__wrapper container">
+        <div class="info__text">
+          <h2 class="info__title">Для участников</h2>
+          <p class="info__subtitle">
+            Чтобы стать участником конукурса,
+            <span>вам необходимо подать заявку до 1 октября</span>
+          </p>
+        </div>
+
+        <button class="info__button" type="button">Подать заявку</button>
+      </div>
+    </section>
+    <section class="speakers">
+      <div class="speakers__wrapper container">
+        <div class="speakers__subtitle">
+          Спикеры, которые подготовили для вас ценные лекции
+        </div>
+
+        <div class="speakers__slider">
+          <div id="gallery" class="swiper-container gallery">
+            <div class="swiper-wrapper gallery__wrapper">
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/1.jpg" srcset="images/speakers/1@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/2.jpg" srcset="images/speakers/2@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/3.jpg" srcset="images/speakers/3@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/4.jpg" srcset="images/speakers/4@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/5.jpg" srcset="images/speakers/5@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/6.jpg" srcset="images/speakers/6@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/7.jpg" srcset="images/speakers/7@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+              <div class="gallery__item swiper-slide">
+                <!-- 1х: 280px; 2x: 520px -->
+                <img class="gallery__pic" src="images/speakers/8.jpg" srcset="images/speakers/8@2x.jpg 2x" width="280" height="280" alt="speaker">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper container">
+        <div class="page-footer__map">
+          <svg width="25" height="25">
+            <use xlink:href="images/sprite_auto.svg#icon-pin"></use>
+          </svg>
+          Местоположение
+        </div>
+        <div class="page-footer__contacts contacts">
+          <div class="contacts__phones">
+            <a class="contacts__phone" href="">+7 (926) 000 00 00</a>
+            <a class="contacts__phone" href="">+7 (926) 000 00 00</a>
+          </div>
+          <div class="contacts__social social">
+            <a class="social__link" href="#">
+              <svg class="social__icon" width="25" height="25">
+                <use xlink:href="images/sprite_auto.svg#icon-wp"></use>
+              </svg>
+            </a>
+            <a class="social__link" href="#">
+              <svg class="social__icon" width="25" height="25">
+                <use xlink:href="images/sprite_auto.svg#icon-tm"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/vendor.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
