@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing 2</title>
+    <meta name="description" content="text">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <nav class="menu">
+          <button class="menu__button" type="button" aria-label="Кнопка меню">
+            <svg width="25" height="25">
+              <use xlink:href="images/sprite_auto.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="menu__wrapper">
+            <a class="menu__link" href="#">Мои навыки</a>
+            <a class="menu__link" href="#">Оставить заявку</a>
+            <a class="menu__link active" href="#">Позвонить</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="promo">
+      <div class="promo__wrapper container">
+        <h1 class="promo__title">Разработка сайтов, игр и приложений</h1>
+        <p class="promo__text">Помогаю воплощать мечты в реальность</p>
+      </div>
+    </section>
+    <section class="advantages section section--bg">
+      <div class="advantages__wrapper container">
+        <h2 class="section__title">Почему вам стоит обратиться ко мне</h2>
+        <div class="advantages__items">
+          <div class="advantages__item">
+            <svg class="advantages__icon" width="85" height="70">
+              <use xlink:href="images/sprite_auto.svg#icon-heart"></use>
+            </svg>
+            <h3 class="section__subtitle section__subtitle--bold">
+              Индивидуальный подход
+            </h3>
+            <p class="section__text">
+              Каждый клиент для меня особенный. Я тщательно изучаю что ему
+              необходимо, прежде, чем приступить к работе.
+            </p>
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__icon" width="85" height="85">
+              <use xlink:href="images/sprite_auto.svg#icon-pig"></use>
+            </svg>
+            <h3 class="section__subtitle section__subtitle--bold">
+              Разумные <br>
+              цены
+            </h3>
+            <p class="section__text">
+              Я предлагаю выгодные цены за безупречное выполнение работы и
+              соблюдение сроков.
+            </p>
+          </div>
+          <div class="advantages__item">
+            <svg class="advantages__icon" width="85" height="85">
+              <use xlink:href="images/sprite_auto.svg#icon-medal"></use>
+            </svg>
+            <h3 class="section__subtitle section__subtitle--bold">
+              Отличный результат!
+            </h3>
+            <p class="section__text">
+              Я внимательно работаю над каждым проектом. Я очень люблю свою
+              работу, поэтому вас обрадует результат проделанной работы.
+            </p>
+          </div>
+        </div>
+        <button class="advantages__button button" type="button">
+          Получить консультацию
+        </button>
+      </div>
+    </section>
+    <section class="skills section">
+      <div class="skills__wrapper container">
+        <h2 class="section__title">Что я могу</h2>
+        <div class="skills__items">
+          <div class="skills__item">
+            <svg class="skills__icon" width="175" height="175">
+              <use xlink:href="images/sprite_auto.svg#icon-laptop"></use>
+            </svg>
+            <div class="skills__info">
+              <h3 class="section__subtitle">
+                Я умею писать валидный и семмантически верный код для вашего
+                сайта или приложения
+              </h3>
+              <p class="section__text">
+                Ваш сайт и приложение будут верно работать, благодаря моей
+                верстке
+              </p>
+            </div>
+          </div>
+          <div class="skills__item">
+            <svg class="skills__icon" width="175" height="175">
+              <use xlink:href="images/sprite_auto.svg#icon-js"></use>
+            </svg>
+            <div class="skills__info">
+              <h3 class="section__subtitle">
+                Я умею создавать игры и анимации с помощью JavaScript
+              </h3>
+              <p class="section__text">
+                Я свободно владею языком JavaScript и могу “оживить” ваш сайт и
+                приложение
+              </p>
+            </div>
+          </div>
+          <div class="skills__item">
+            <svg class="skills__icon" width="175" height="175">
+              <use xlink:href="images/sprite_auto.svg#icon-react"></use>
+            </svg>
+            <div class="skills__info">
+              <h3 class="section__subtitle">
+                Я умею создавать приложения с помощью React
+              </h3>
+              <p class="section__text">
+                Благодаря моим навыкам, ваш сайт и приложение будут максимально
+                удобными в использовании
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="skills__pagination pagination">
+          <button class="pagination__item pagination__item--active button" type="submit" aria-label="Точка пагинации"></button>
+          <button class="pagination__item button" type="submit" aria-label="Точка пагинации"></button>
+          <button class="pagination__item button" type="submit" aria-label="Точка пагинации"></button>
+        </div>
+      </div>
+    </section>
+    <section class="feedback section">
+      <div class="feedback__wrapper container">
+        <h2 class="section__title">Есть вопросы?</h2>
+        <svg class="feedback__icon" width="175" height="175">
+          <use xlink:href="images/sprite_auto.svg#icon-question"></use>
+        </svg>
+        <p class="section__text feedback__text">
+          Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами
+        </p>
+        <form class="feedback__form" action="https://test.test" method="post">
+          <label for="feedback-name" class="feedback__label">
+            <input id="feedback-name" name="feedback-name" class="feedback__field" type="text" placeholder="Имя и фамилия">
+          </label>
+          <label for="feedback-phone" class="feedback__label">
+            <input id="feedback-phone" name="feedback-phone" class="feedback__field" type="tel" placeholder="Номер телефона">
+          </label>
+          <label for="feedback-email" class="feedback__label">
+            <input id="feedback-email" name="feedback-email" class="feedback__field" type="email" placeholder="e-mail">
+          </label>
+          <button class="feedback__button button" type="submit">
+            Отправить
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper container">
+        <div class="social">
+          <div class="social__subtitle">
+            Меня можно <span>найти в социальных сетях:</span>
+          </div>
+          <div class="social__links">
+            <a class="social__link" href="#">
+              <svg class="social__icon" width="60" height="60" aria-label="иконка">
+                <use xlink:href="images/sprite_auto.svg#icon-in"></use>
+              </svg>
+            </a>
+            <a class="social__link" href="#">
+              <svg class="social__icon" width="60" height="60" aria-label="иконка">
+                <use xlink:href="images/sprite_auto.svg#icon-inst"></use>
+              </svg>
+            </a>
+            <a class="social__link" href="#">
+              <svg class="social__icon" width="60" height="60" aria-label="иконка">
+                <use xlink:href="images/sprite_auto.svg#icon-fb"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="page-footer__copy">2020 © WebHero School</div>
+      </div>
+    </footer>
+  </body>
+</html>
