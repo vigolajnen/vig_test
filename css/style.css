@@ -66,7 +66,7 @@ html {
   border: none;
   border-radius: 50px;
   color: #ffda45;
-  background-color: #330099;
+  background-color: #309;
   cursor: pointer;
   outline: none;
   font-family: "Montserrat Black", "Arial", "Helvetica CY", sans-serif;
@@ -122,8 +122,8 @@ html {
   position: relative;
   padding: 30px 0;
   background-color: #fff;
-  border-top: 3px solid #330099;
-  border-bottom: 3px solid #330099;
+  border-top: 3px solid #309;
+  border-bottom: 3px solid #309;
 }
 
 @media (max-width: 767px) {
@@ -200,7 +200,7 @@ html {
   font-family: "Montserrat Black", "Arial", "Helvetica CY", sans-serif;
   font-size: 40px;
   line-height: 49px;
-  color: #330099;
+  color: #309;
 }
 
 @media (max-width: 767px) {
@@ -224,37 +224,6 @@ html {
   .promo__text {
     font-size: 16px;
     line-height: 20px;
-  }
-}
-
-.logo {
-  display: block;
-  width: 66px;
-  height: 66px;
-}
-
-@media (max-width: 767px) {
-  .logo {
-    width: 52px;
-    height: 52px;
-  }
-}
-.logo img {
-  max-width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-.logo svg {
-  width: 66px;
-  height: 66px;
-  fill: #a87b62;
-}
-
-@media (max-width: 767px) {
-  .logo svg {
-    width: 52px;
-    height: 52px;
   }
 }
 
@@ -339,7 +308,7 @@ html {
 .page-footer {
   padding: 60px 0;
   color: #fff;
-  background-color: #330099;
+  background-color: #309;
 }
 
 @media (max-width: 767px) {
@@ -448,7 +417,7 @@ html {
 .menu__link:focus,
 .menu__link:hover {
   color: #fff;
-  background-color: #330099;
+  background-color: #309;
   border-radius: 50px;
 }
 
@@ -464,7 +433,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  background-color: #330099;
+  background-color: #309;
   border-radius: 50px;
 }
 
