@@ -169,17 +169,13 @@ html {
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi),
-(min-resolution: 1.25dppx) {
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
   .promo {
     background-image: url("../images/promo/promo-bg-mob@2x.jpg");
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5),
-(min-resolution: 144dpi),
-(min-resolution: 1.5dppx) {
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .promo {
     background-image: url("../images/promo/promo-bg@2x.jpg");
   }
