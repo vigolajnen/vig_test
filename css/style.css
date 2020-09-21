@@ -264,6 +264,7 @@ html {
     font-size: 14px;
     line-height: 18px;
   }
+
   .social__subtitle span {
     display: block;
   }
@@ -298,7 +299,8 @@ html {
   margin-right: 0;
 }
 
-.social__link:focus, .social__link:hover {
+.social__link:focus,
+.social__link:hover {
   opacity: 0.5;
 }
 
@@ -396,7 +398,8 @@ html {
   cursor: pointer;
 }
 
-.menu__button:focus, .menu__button:hover {
+.menu__button:focus,
+.menu__button:hover {
   outline: none;
 }
 
@@ -431,7 +434,8 @@ html {
   margin-right: 0;
 }
 
-.menu__link:focus, .menu__link:hover {
+.menu__link:focus,
+.menu__link:hover {
   color: #fff;
   background-color: #309;
   border-radius: 50px;
@@ -674,9 +678,11 @@ html {
     display: none;
     margin-bottom: 30px;
   }
+
   .skills__item:last-child {
     margin-bottom: 30px;
   }
+
   .skills__item:first-child {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -756,7 +762,8 @@ html {
   margin-right: 0;
 }
 
-.pagination__item:focus, .pagination__item:hover {
+.pagination__item:focus,
+.pagination__item:hover {
   background-color: #ffda45;
   border-color: #ffda45;
   outline: none;
